@@ -18,8 +18,7 @@ public class Calorias {
         {
             calorias[i]=Integer.parseInt(JOptionPane.showInputDialog("Digite las calorias del dia "+semana[i]));
             dia=i+1;
-            //JOptionPane.showMessageDialog(null, "Las calorias del dia " + dias[i] + " son: " + calorias[i]);
-            System.out.println ("Las calorias del dia " + semana[i] + " son: " + calorias[i]);
+            
         }
         mayor=calorias[0];
         for (int g = 1; g < calorias.length; g++) {
