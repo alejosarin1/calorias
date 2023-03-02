@@ -2,21 +2,17 @@
 import javax.swing.JOptionPane;
 public class Calorias {
     public static void main(String[] args) {
-        /*Declaracion
-        *de
-        *variables
-        */
+        
         int[] calorias;
         int dia=0,CaloriasMenos=0,mayor,menor;
         double suma=0;
-        //String[ ] dias;
-        //dias = new String[7];
+        
 
         String[ ] semana = {"lunes", "martes", "miercoles","jueves","viernes","sabado","domingo"};
         
 
         
-        // processing
+        
         calorias = new int[7];
         for (int i=0;i<7;i=i+1)
         {
